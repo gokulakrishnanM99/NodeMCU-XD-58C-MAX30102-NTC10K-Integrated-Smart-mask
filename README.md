@@ -17,10 +17,10 @@ Sensors that measure heart rate, respiration rate, blood pressure, and body temp
 # Connections:
 
    NodeMCU --->>  Xd-58C
-  -----------------------  
-  3.3V/5V --->   Vcc (Red)
-  GND     --->   GND (Black)
-  O/P     --->   Signal (Purple)
+  ---------------------  
+    3.3V/5V --->   Vcc (Red)
+    GND     --->   GND (Black)
+    O/P     --->   Signal (Purple)
 
 Note: Colour code might be change for sensors bought from a different company
   
@@ -43,6 +43,7 @@ Note: Colour code might be change for sensors bought from a different company
   Control pins: S0 to S3
   
 **INTEGRATION OF MULTIPLE SENSORS WITH NODE MCU**
+
 The Heart Rate sensor, Respiration Rate sensor and Pulse Oximeter are integrated with Node MCU by using a 16-channel M multiplexer sensor. 
 C0  and C1, analogue input of 16 channel multiplexer is connected with the thermistor's positive pin and the pulse sensor's signal pin, respectively.
 The signal pin SIG of the multiplexer is connected with the A0 Analog pin of Node MCU. 
