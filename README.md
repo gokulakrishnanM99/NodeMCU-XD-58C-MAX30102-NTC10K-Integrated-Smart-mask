@@ -16,13 +16,11 @@ Sensors that measure heart rate, respiration rate, blood pressure, and body temp
 
 # Connections:
 
-
-  
-   NodeMCU  --->>  XD-58C
-  ---------------------------  
-  GND        --->  Pin-1 (Black) - GND
-  5V or 3.3V ---> Pin-2 (Red) - VCC
-  O/p        ---> Pin-3 (Purple) - Signal
+   NodeMCU --->>  Xd-58C
+  -----------------------  
+  3.3V/5V --->   Vcc (Red)
+  GND     --->   GND (Black)
+  O/P     --->   Signal (Purple)
 
 Note: Colour code might be change for sensors bought from a different company
   
