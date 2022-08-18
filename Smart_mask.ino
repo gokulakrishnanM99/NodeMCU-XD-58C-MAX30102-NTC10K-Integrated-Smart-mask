@@ -33,7 +33,7 @@ MAX30105 particleSensor;
 
 char auth[] = ""; /*Authentication*/
 char ssid[] = ""; /*WiFi id*/
-char pass[] = "Maha@2000"; /*WiFi Password*/
+char pass[] = ""; /*WiFi Password*/
 
 int bpm;
 const int PulseWire = 0;      
